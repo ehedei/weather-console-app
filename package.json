@@ -1,0 +1,27 @@
+{
+  "name": "weather-app",
+  "version": "0.0.1",
+  "description": "Weather app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehedei/weather-console-app.git"
+  },
+  "keywords": [],
+  "author": "Ehedei Hernández García",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ehedei/weather-console-app/issues"
+  },
+  "homepage": "https://github.com/ehedei/weather-console-app#readme",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "inquirer": "^8.2.0"
+  }
+}
